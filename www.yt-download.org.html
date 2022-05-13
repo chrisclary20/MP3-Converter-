@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Converter</title>
+</head>
+<body>
+<!-- don't touch this, header & fonts -->
+<h1 style="font-family: Georgia; text-align: center;" font-weight="bold">ConversionBaby!</h1>
+
+<!-- Widget api iframe, you can touch this. in line 14, src="https://yt-download.org/api/widget?url=youcanpastetheyoutubelinkhere" -->
+<iframe id="widgetApi" src="https://yt-download.org/api/widget?url="
+width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
+
+
+
+<!-- framework shit don't touch this -->
+<script src="https:/
+/cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.2/iframeResizer.min.js"></script>
+<script>iFrameResize({ log: false, minHeight: 400 }, '#widgetApi')</script>
+
+
+</body>
+</html>

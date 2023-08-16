@@ -8,3 +8,5 @@ Example: src="https://yt-download.org/api/widget?url=" put the youtube video aft
 ==> src="https://yt-download.org/api/widget?url=youtube.com" <==~~
 
 just host the html file locally and use the search bar, pizzazz
+
+still glad I got that search bar working
